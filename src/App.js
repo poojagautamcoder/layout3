@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-function App() {
+import Home from './Pages/Home';
+const App = () => {
   return (
     <div className="App">
-      
-      
+     <Home/>
     </div>
   );
 }
